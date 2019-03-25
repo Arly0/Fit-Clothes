@@ -1,0 +1,40 @@
+// button
+$btncolor: #Ff0000;
+$btncolor-press: #D40000;
+
+// colors
+$lblue: #0098C5;
+$black: #000;
+$pink: #F5029A;
+$purple: #DB0B31;
+
+$buyblue: #0098C5;
+$buypurple: #DB0B31;
+$buypink: #F5029A;
+$buygar: #999;
+
+$backgray: #F5F5F5;
+
+// paddings of blocks
+$padLR: 100px;
+$padTB: 50px;
+$padContent: 25px;
+
+// font-size
+$fstop: 67px;
+$fsSmall: 14px;
+$fsvalue: 24px;
+$fsacsion: 20px;
+$fstimer: 30px;
+
+// fonts
+@font-face {
+  font-family: ManropeB;
+  src: url("../fonts/Manrope-bold.otf");
+}
+@font-face {
+  font-family: ManropeL;
+  src: url("../fonts/Manrope-light.otf");
+}
+$famBold: "ManropeB";
+$famLight: "ManropeL";
